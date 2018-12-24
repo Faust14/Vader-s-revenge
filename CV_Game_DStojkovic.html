@@ -1,0 +1,29 @@
+<html>
+
+    <head>
+        <title>Star Wars</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/bodi1.css" type = "text/css" rel="stylesheet"  >
+    </head>
+    <body id ="bg">
+	
+	<button id="b" onclick="window.open('GameCode/game.html');" style="background-image:url(Images/start.jpg);width:205px;height:105px;top:42%;left:42%;position:absolute;">
+	</button>
+
+
+	<audio id="breath">
+	<source src="darth vader breathing - sound effect-[AudioTrimmer.com].mp3" type="audio/mpeg">
+	</audio>
+	</body>
+	
+</html>
+
+<script>
+var s = document.getElementById("breath");
+	document.getElementById('b').addEventListener('click', function(){
+    s.play();
+    
+});
+
+</script>

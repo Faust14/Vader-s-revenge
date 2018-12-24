@@ -1,0 +1,2 @@
+Otvaranjem CV_Game_DStojkovic.html file-a se pokrece mini igrica koju sam sam napravio. 
+Za kretanje se koriste strelice, a za pucanje space.

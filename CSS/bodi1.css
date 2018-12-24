@@ -1,0 +1,17 @@
+#bg{
+ background-image: url(../Images/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size : cover;
+   
+   
+}
+#b{
+	background-image:url(../Images/start.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 205px;
+    height: 105px;
+	left: 46%;
+    top: 50%;
+}
